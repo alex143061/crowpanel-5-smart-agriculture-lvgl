@@ -58,11 +58,14 @@ Go to:
 Sketch → Include Library → Manage Libraries
 
 Install the following:
-1️⃣ LovyanGFX
+1️⃣ LovyanGFX 
+
 Tested Version: 1.2.19
 
 2️⃣ LVGL
+
 lvgl
+
 Install: 8.3.10
 
 ⚠ IMPORTANT:
