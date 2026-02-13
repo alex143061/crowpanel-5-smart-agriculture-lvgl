@@ -184,15 +184,9 @@ lv_conf.h
 
 ✔ LovyanGFX RGB Driver
 
-✔ GT911 Touch Support
-
 ✔ Circular Gauge Cards
 
 ✔ Live Updating Sensor Simulation
-
-✔ Scrollable Layout
-
-✔ Temperature History Bar Chart
 
 -------------------------------------------------------------------
 🧠 Common Problems & Fixes
