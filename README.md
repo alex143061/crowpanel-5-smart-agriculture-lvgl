@@ -179,14 +179,22 @@ lv_conf.h
 🚀 Features in This Demo
 
 ✔ RGB 800×480 Display
+
 ✔ LVGL 8.3.10
+
 ✔ LovyanGFX RGB Driver
+
 ✔ GT911 Touch Support
+
 ✔ Circular Gauge Cards
+
 ✔ Live Updating Sensor Simulation
+
 ✔ Scrollable Layout
+
 ✔ Temperature History Bar Chart
 
+-------------------------------------------------------------------
 🧠 Common Problems & Fixes
 ❌ UI Freezing / Crashing
 
