@@ -31,6 +31,7 @@ Go to:
 File → Preferences
 
 Add to Additional Boards Manager URLs:
+
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 
 Click OK.
@@ -43,8 +44,11 @@ Search:
 esp32
 
 Install:
+
 esp32 by Espressif Systems
+
 🎯 Recommended Core Version
+
 Tested and confirmed working: 3.3.7
 
 Alternative stable version: 2.0.14
@@ -54,10 +58,13 @@ LVGL + LovyanGFX are sensitive to core versions.
 
 -----------------------------------------------------
 📚 Required Libraries
+
 Go to:
+
 Sketch → Include Library → Manage Libraries
 
 Install the following:
+
 1️⃣ LovyanGFX 
 
 Tested Version: 1.2.19
@@ -80,30 +87,43 @@ Select:
 Tools → Board → ESP32 Arduino → ESP32S3 Dev Module
 
 🔧 Core Settings
+
 USB CDC On Boot → Enabled
+
 CPU Frequency → 240MHz (WiFi)
+
 Core Debug Level → None
 
 💾 Flash Settings (VERY IMPORTANT)
+
 Flash Mode → QIO 80MHz
+
 Flash Size → 4MB (32Mb)
+
 Partition Scheme → Huge APP (3MB No OTA / 1MB SPIFFS)
 
 If incorrect, you will get:
+
 Detected size(4096k) smaller than the size in the binary image header(16384k)
 
 🧠 PSRAM Settings (REQUIRED)
+
 PSRAM → OPI PSRAM
+
 ⚠ REQUIRED for 800×480 LVGL projects.
 
 Without PSRAM → crash / freeze / bootloop.
 
 🔌 USB Settings
+
 USB Mode → Hardware CDC and JTAG
+
 Upload Mode → USB-OTG CDC (TinyUSB)
+
 Upload Speed → 921600
 
 🧹 First Upload Recommendation
+
 Tools → Erase All Flash Before Sketch Upload → Enabled
 
 After successful upload, you may disable it.
