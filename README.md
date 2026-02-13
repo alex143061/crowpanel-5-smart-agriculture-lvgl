@@ -59,7 +59,6 @@ Sketch → Include Library → Manage Libraries
 
 Install the following:
 1️⃣ LovyanGFX
-LovyanGFX
 Tested Version: 1.2.19
 
 2️⃣ LVGL
