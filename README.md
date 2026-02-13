@@ -94,6 +94,8 @@ CPU Frequency → 240MHz (WiFi)
 
 Core Debug Level → None
 
+-------------------------------------------------------------------
+
 💾 Flash Settings (VERY IMPORTANT)
 
 Flash Mode → QIO 80MHz
@@ -106,6 +108,8 @@ If incorrect, you will get:
 
 Detected size(4096k) smaller than the size in the binary image header(16384k)
 
+-------------------------------------------------------------------
+
 🧠 PSRAM Settings (REQUIRED)
 
 PSRAM → OPI PSRAM
@@ -113,6 +117,8 @@ PSRAM → OPI PSRAM
 ⚠ REQUIRED for 800×480 LVGL projects.
 
 Without PSRAM → crash / freeze / bootloop.
+
+-------------------------------------------------------------------
 
 🔌 USB Settings
 
@@ -130,6 +136,7 @@ After successful upload, you may disable it.
 
 -------------------------------------------------------------------
 📁 Project Folder Structure
+
 Your Arduino sketch folder MUST look like this:
 
 final-crowpanel/
@@ -139,23 +146,30 @@ final-crowpanel/
 └── lv_conf.h
 
 ❗ Important Rules (Based on Real Testing)
+
 🔹 lv_conf.h
 
 MUST be inside your sketch folder
+
 NOT inside Arduino/libraries/lvgl/
+
 Must match LVGL 8 configuration
 
 🔹 gfx_conf.h
 
 Must NOT contain setup()
+
 Must NOT contain loop()
+
 Must define RGB panel configuration
+
 Must initialize GT911 correctly
 🔹 Fonts
 
 If you use fonts like:
 
 lv_font_montserrat_36
+
 lv_font_montserrat_22
 
 Make sure they are enabled in:
