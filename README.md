@@ -244,7 +244,7 @@ Partition → Huge APP
 
 -----------------------------------------------------------------
 
-🌱 Want to Explore?
+🌱 Want to Explore more?
 
 Real sensor integration (I2C / RS485 / Modbus)
 
